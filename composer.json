@@ -1,0 +1,46 @@
+{
+    "name": "rafflesargentina/l5-action-based-permission",
+    "description": "Action Based Permission middleware for Laravel 5",
+    "keywords": [
+        "laravel 5", "permissions", "middleware"
+    ],
+    "homepage": "https://github.com/rafflesargentina/l5-action-based-permission",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Patronelli",
+            "email": "mario@raffles.com.ar",
+            "homepage": "http://raffles.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0",
+        "laravel/laravel": "^5.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.5",
+        "apigen/apigen": "^v2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "RafflesArgentina\\ActionBasedPermission\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RafflesArgentina\\ActionBasedPermission\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

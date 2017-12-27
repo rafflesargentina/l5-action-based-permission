@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="generator" content="ApiGen 2.8.0">
+
+	<title>Class RafflesArgentina\ActionBasedPermission\Middleware\ActionBasedPermission</title>
+
+	<link rel="stylesheet" href="resources/style.css?3901564645">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+				<li class="active"><a href="namespace-RafflesArgentina.html">RafflesArgentina<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-RafflesArgentina.ActionBasedPermission.html">ActionBasedPermission<span></span></a>
+						<ul>
+				<li><a href="namespace-RafflesArgentina.ActionBasedPermission.Exceptions.html">Exceptions</a>
+						</li>
+				<li class="active"><a href="namespace-RafflesArgentina.ActionBasedPermission.Middleware.html">Middleware</a>
+						</li>
+							</ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-RafflesArgentina.ActionBasedPermission.Middleware.ActionBasedPermission.html">ActionBasedPermission</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text">
+		<input type="submit" value="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-RafflesArgentina.ActionBasedPermission.Middleware.html" title="Summary of RafflesArgentina\ActionBasedPermission\Middleware"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ActionBasedPermission</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-RafflesArgentina.html">RafflesArgentina</a>\<a href="namespace-RafflesArgentina.ActionBasedPermission.html">ActionBasedPermission</a>\<a href="namespace-RafflesArgentina.ActionBasedPermission.Middleware.html">Middleware</a><br>
+		
+
+		<b>Located at</b> <a href="source-class-RafflesArgentina.ActionBasedPermission.Middleware.ActionBasedPermission.html#12-121" title="Go to source code">Middleware/ActionBasedPermission.php</a><br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-RafflesArgentina.ActionBasedPermission.Middleware.ActionBasedPermission.html#16-24" title="Go to source code">__construct</a>( <span>Illuminate\Contracts\Auth\Guard <var>$auth</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Create a new ActionBasedPermission instance.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new ActionBasedPermission instance.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$auth</var></dt>
+					<dd>The Guard implementation.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="handle" id="_handle">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_handle">#</a>
+		<code><a href="source-class-RafflesArgentina.ActionBasedPermission.Middleware.ActionBasedPermission.html#26-68" title="Go to source code">handle</a>( <span>Illuminate\Http\Request <var>$request</var></span>, <span><code><a href="class-Closure.html">Closure</a></code> <var>$next</var></span>, <span>string <var>$alias</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Handle an incoming request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Handle an incoming request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$request</var></dt>
+					<dd>The request object.</dd>
+					<dt><var>$next</var></dt>
+					<dd>The closure.</dd>
+					<dt><var>$alias</var></dt>
+					<dd>The named route alias.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>mixed<br>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="auth" id="$auth">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-RafflesArgentina.ActionBasedPermission.Middleware.ActionBasedPermission.html#14" title="Go to source code"><var>$auth</var></a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</td>
+		<td class="value"><div><a href="#$auth" class="anchor">#</a><code></code></div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?2849225465"></script>
+<script src="elementlist.js?2156730533"></script>
+</body>
+</html>
